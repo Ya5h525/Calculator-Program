@@ -1,0 +1,99 @@
+/* General styling */
+body {
+    font-family: monospace ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cbc6c6;
+    
+}
+#main-cont{
+    background-color: #242222b1;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: #29272a;
+
+}
+#logo{
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+
+#input-cont {
+    margin-bottom: 30px;
+   margin-top: 30px;
+}
+
+#display {
+    height: 50px;
+    font-size: 1.5em;
+    text-align: left;
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 20px;
+    color: #29272a;
+    font-weight: bolder;
+}
+
+#buttons {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.4em;
+    background-color: #29272a;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active{
+    background-color: #0179fa;
+}
+
+/* Clear button */
+#result {
+    background-color: #dc3545;
+    width: 290px;
+    border-radius: 20px;
+    
+}
+
+#result:hover {
+    background-color: #a71d2a;
+}
+#result:active {
+    background-color: #ff243a;
+}
+.opp{
+    background-color: hsl(16, 98%, 58%);
+
+}
+.opp:hover{
+    background-color: hsl(16, 95%, 66%);
+}
+.opp:active{
+    background-color: hsl(16, 85%, 76%);
+}
